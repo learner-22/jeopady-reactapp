@@ -1,38 +1,89 @@
 .App {
   text-align: center;
+  background-color: rgb(78, 135, 161);
+  width :700px;
+  height : auto;
+  margin: auto;
+  padding :40px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color :aliceblue;
+  font-weight: 600;
+  font-size: xx-large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#span {
+  color :yellow;
+font-weight: 600;
+font-size: x-large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#content {
+  color :aliceblue;
+  font-weight: 500;
+}
+
+h2{
+  color :yellow;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+#questionButton{
+  background-color: yellow;
+  border: none;
+  color: green;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8%;
+}
+
+.answerButton{
+  background-color: rgb(18, 14, 82);
+  border: none;
   color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8%;
 }
 
-.App-link {
-  color: #61dafb;
+.increaseButton{
+  background-color: rgb(231, 117, 40);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8%;
+  margin :10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.decreaseButton{
+  background-color: rgb(111, 128, 230);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8%;
+  margin :10px;
+}
+
+.resetButton{
+  background-color: rgb(211, 35, 108);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8%;
+  margin :10px;
 }
